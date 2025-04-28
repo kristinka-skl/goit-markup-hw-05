@@ -469,10 +469,6 @@ input {
   top: 0;
   left: 0;
   z-index: 999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -524,11 +520,11 @@ input {
 .close-btn:hover svg,
 .close-btn:focus svg {
   fill: #fff;
-  border: none;
 }
 .close-btn:hover,
 .close-btn:focus {
   background-color: #404bbf;
+  border: none;
 }
 .modal-title {
   font-weight: 500;
@@ -560,6 +556,7 @@ input {
   margin-bottom: 8px;
 }
 .input-wrapper {
+  display: block;
   position: relative;
 }
 .input-icon {
@@ -621,7 +618,7 @@ textarea::placeholder {
 }
 
 .checkbox-policy:checked + label .custom-checkbox {
-  background-color: #4d5ae5;
+  background-color: #404bbf;;
   border: none;
   fill: #f4f4fd;
 }
