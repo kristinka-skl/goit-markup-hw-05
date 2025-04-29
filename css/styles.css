@@ -638,6 +638,10 @@ textarea::placeholder {
     padding-left: 24px;
     position: relative;
     cursor: pointer;
+    font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 
 
