@@ -609,7 +609,7 @@ textarea::placeholder {
   background-color: transparent;
   width: 16px;
   height: 16px;
-  
+  margin-right: 8px;
   justify-content: center;
   align-items: center;
   fill: transparent;
@@ -626,14 +626,13 @@ textarea::placeholder {
   margin-bottom: 24px;
 }
 
-.privacy-policy {
+.privacy-policy-link {
   line-height: 1.33;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
 .privacy-text {
-
     cursor: pointer;
     font-size: 12px;
     line-height: 1.17;
